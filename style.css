@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
-    background:#8591ff ;
+    background:linear-gradient(to right,#63bdfc,#8591ff );
     display: flex;
     height: 10vh;
     align-items: center;
@@ -26,8 +26,7 @@ header{
  flex:1
 }
 .logo{
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
 h4{
     font-weight: 700;
@@ -46,13 +45,17 @@ list-style: none;
     text-decoration: none;
     font-weight: 500;
 }
+.nav-link:hover{
+    font-weight: 700;
+    color: white;
+}
 .main-container{
-    margin-top:80px ;
+    margin-top:70px ;
 }
 .presentation{
     display: flex;
     padding: 0px 150px 0px 150px;
-    min-height: 90vh;
+    min-height: 100vh;
     align-items: center;    
 }
 .introduction{
@@ -60,7 +63,7 @@ list-style: none;
 }
 .intro-text h1{
     font-size: 72px;
-    background: linear-gradient(to left,#63bdfc,#8591ff);
+    background: linear-gradient(to right,#63bdfc,#8591ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 5px;
@@ -70,19 +73,17 @@ list-style: none;
     font-size: 35px;
     color: #585772;
     font-weight: 300;
-
 }
 .intro-text p{
     color: #403f55;
     font-size: 16px;
     font-weight: 400;
-
 }
 .cover{
-    flex:1
-    
+    flex:1   
 }
 .cover img{
+    
     height: 90vh;
     filter: drop-shadow(0px 7px 4px black);
     /* animation: drop 0.5s ease; */
@@ -94,7 +95,6 @@ list-style: none;
     z-index: -1;
     opacity: 0.5;
     height: 80%;
-
 }
 .mid{
     position: absolute;
@@ -108,6 +108,7 @@ list-style: none;
     bottom: 0%;
     left: 30%;
     z-index: -1;
+    opacity: 0.3;
 }
 /* @keyframes drop{
     0%{
@@ -120,6 +121,100 @@ list-style: none;
         transform: translateY(0px);
     }
 } */
+.projects{
+    
+    padding: 0px 150px 0px 150px;
+    min-height: 100vh;
+    align-items: center; 
+    background:linear-gradient(to right,#63bdfc,#8591ff);   
+}
+.question{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.question a{
+    font-weight: 300;
+    font-size: 20px;
+    color: cornsilk;
+    text-decoration: none;
+    padding-right: 50px;
+}
+.question h2{
+    padding-left:400px;
+    font-weight: 500;
+    font-size: 40px;
+    color:cornsilk;
+}
+.question button{
+    background: transparent;
+    border: 1px white;
+}
+h3{
+    color: cornsilk;
+    font-weight: 400;
+    font-size: 30px;   
+}
+.work a{
+    font-weight: 400;
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+}
+.flutter, .unity,.design,.hack{    
+    padding-bottom: 20px;
+}
+.work{
+    list-style: none;
+}
+
+
+.about{
+    display: flex;
+    padding: 0px 150px 0px 150px;
+    min-height: 60vh;
+    align-items: center; 
+    background:cornsilk;  
+}
+.contact{
+    display: flex;
+    padding: 0px 200px 0px 200px;
+    min-height: 30vh;
+    align-items: center; 
+    background:linear-gradient(to left,#63bdfc,#8591ff);   
+}
+.display-text{
+    flex: 1;  
+}
+.display-text h2{
+    font-weight: 500;    
+}
+.con-links{
+    list-style: none;
+    display: flex;
+    flex:0.8;
+    justify-content: space-around;    
+}
+.con-link img{
+    height: 5vh;   
+}
+.footer{
+    display: flex;
+    padding: 0px 200px 0px 200px;
+    min-height: 10vh;
+    align-items: center; 
+    background:linear-gradient(to left,#63bdfc,#8591ff);  
+}
+.quote{
+    flex:1;
+}
+.quote h2{
+    padding-left: 335px ;
+    font-weight: 300;
+    font-size: 16px;
+}
 @media screen and (max-width:1024px)
 {
     .logo{
