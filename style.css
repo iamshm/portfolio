@@ -227,6 +227,7 @@ flex:1;
 .btn{
     float: inherit;
     padding: 3px 300px 3px 300px;
+    justify-content: center;
 }
 
 .hire-btn{
@@ -251,7 +252,7 @@ flex:1;
 }
 .contact{
     display: flex;
-    padding: 0px 200px 0px 200px;
+    padding: 0px 150px 0px 150px;
     min-height: 30vh;
     align-items: center; 
     background:linear-gradient(to left,#63bdfc,#8591ff);   
@@ -274,6 +275,7 @@ flex:1;
 
 .cdthink{ 
     height: 20vh;
+    padding-left: 60px;
     
 }
 .footer{
@@ -282,6 +284,7 @@ flex:1;
     min-height: 10vh;
     align-items: center; 
     background:linear-gradient(to left,#63bdfc,#8591ff);  
+    justify-content: center;
 }
 .quote{
     flex:1;
