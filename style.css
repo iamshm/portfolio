@@ -188,13 +188,15 @@ h3{
 .about{
     display: flex;
     padding: 0px 150px 0px 150px;
-    min-height: 60vh;
+    min-height: 90vh;
     align-items: center; 
     background:cornsilk;  
 }
 .abt-clipart{
 flex:1;
-
+}
+.abt-clipart img{
+    height:40vh;
 }
 
 .abt-content{   
@@ -206,9 +208,10 @@ flex:1;
     font-size: 26px;
     color:#8591ff;
     padding-bottom:20px ;
-    padding-top:20px ;
+    
 }
 .abtquestion h2{
+    padding-top:60px ;
     font-weight: 700;
 }
 .abt-text{
@@ -284,7 +287,7 @@ flex:1;
     font-weight: 300;
     font-size: 16px;
 }
-@media screen and (max-width:1024px)
+@media screen and (max-width:800px)
 {
     .logo{
         padding: 0px 0px 0px 10px;
