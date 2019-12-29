@@ -157,26 +157,71 @@ h3{
     font-weight: 400;
     font-size: 30px;   
 }
+.content{
+    display: flex;
+    align-items: center;
+}
+.categories{
+    flex:1;   
+}
+.clipart{
+    flex: 0.5;
+    justify-content:space-between;
+    
+}
+
+.cdwork{
+    height: 55vh;
+}
 .work a{
     font-weight: 400;
     font-size:20px;
     text-decoration: none;
     color: black;
 }
-.flutter, .unity,.design,.hack{    
+.flutter, .unity,.cp,.hack{    
     padding-bottom: 20px;
 }
 .work{
     list-style: none;
 }
-
-
 .about{
     display: flex;
     padding: 0px 150px 0px 150px;
     min-height: 60vh;
     align-items: center; 
     background:cornsilk;  
+}
+.abt-clipart{
+
+flex:1;
+float: right;
+
+}
+.abt-content{
+    
+    flex:1.5;
+    align-items:center;
+}
+.abtquestion{
+    text-align: center;
+    
+    font-size: 26px;
+    color:#8591ff;
+    padding-bottom:20px ;
+}
+.abtquestion h2{
+    font-weight: 700;
+}
+.abt-text{
+    
+    font-size: 18px;
+    
+    color:#585772;
+}
+.abt-text p{
+    font-weight: 200;
+    text-align: center;
 }
 .contact{
     display: flex;
