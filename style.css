@@ -193,28 +193,26 @@ h3{
     background:cornsilk;  
 }
 .abt-clipart{
-
 flex:1;
-float: right;
 
 }
-.abt-content{
-    
+
+.abt-content{   
     flex:1.5;
     align-items:center;
 }
 .abtquestion{
-    text-align: center;
-    
+    text-align: center; 
     font-size: 26px;
     color:#8591ff;
     padding-bottom:20px ;
+    padding-top:20px ;
 }
 .abtquestion h2{
     font-weight: 700;
 }
 .abt-text{
-    
+    padding-bottom:40px ;
     font-size: 18px;
     
     color:#585772;
@@ -222,6 +220,28 @@ float: right;
 .abt-text p{
     font-weight: 200;
     text-align: center;
+}
+.btn{
+    float: inherit;
+    padding: 0px 300px 0px 300px;
+}
+
+.hire-btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #8591ff ;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+.hire-btn:hover{
+    background: #63bdfc ;
 }
 .contact{
     display: flex;
@@ -244,6 +264,10 @@ float: right;
 }
 .con-link img{
     height: 5vh;   
+}
+.cdthink{ 
+    height: 20vh;
+    
 }
 .footer{
     display: flex;
