@@ -236,6 +236,7 @@ flex:1;
     width: 100%;
     border: none;
     background-color: #8591ff ;
+    border: 0.8px solid #8591ff;
     color: white;
     padding: 14px 28px;
     font-size: 16px;
@@ -244,7 +245,9 @@ flex:1;
     border-radius: 10px;
 }
 .hire-btn:hover{
-    background: #63bdfc ;
+    border: 0.8px solid #585772;
+    background: cornsilk ;
+    color: #8591ff ;
 }
 .contact{
     display: flex;
