@@ -54,7 +54,8 @@ list-style: none;
 }
 .presentation{
     display: flex;
-    padding: 0px 150px 0px 150px;
+    padding: 0px 9vw 0px 9vw;
+
     min-height: 100vh;
     align-items: center;    
 }
@@ -123,7 +124,7 @@ list-style: none;
 } */
 .projects{
     
-    padding: 0px 150px 0px 150px;
+    padding: 0px 9vw 0px 9vw;
     min-height: 100vh;
     align-items: center; 
     background:linear-gradient(to right,#63bdfc,#8591ff);   
@@ -143,7 +144,7 @@ list-style: none;
     padding-right: 50px;
 }
 .question h2{
-    padding-left:400px;
+    padding-left:25vw;
     font-weight: 500;
     font-size: 40px;
     color:cornsilk;
@@ -187,7 +188,7 @@ h3{
 }
 .about{
     display: flex;
-    padding: 0px 150px 0px 150px;
+    padding: 0px 9vw 0px 9vw;
     min-height: 90vh;
     align-items: center; 
     background:cornsilk;  
@@ -252,7 +253,8 @@ flex:1;
 }
 .contact{
     display: flex;
-    padding: 0px 150px 0px 150px;
+    padding: 0px 9vw 0px 9vw;
+
     min-height: 30vh;
     align-items: center; 
     background:linear-gradient(to left,#63bdfc,#8591ff);   
@@ -280,7 +282,8 @@ flex:1;
 }
 .footer{
     display: flex;
-    padding: 0px 200px 0px 200px;
+    padding: 0px 9vw 0px 9vw;
+
     min-height: 10vh;
     align-items: center; 
     background:linear-gradient(to left,#63bdfc,#8591ff);  
