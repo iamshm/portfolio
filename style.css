@@ -296,8 +296,16 @@ flex:1;
     font-weight: 300;
     font-size: 16px;
 }
+html{
+    scroll-behavior: smooth;
+}
 @media screen and (max-width:800px)
 {
+    *{
+        margin: 0px;
+        padding: 3vw;
+        box-sizing: border-box;
+    }
     .logo{
         padding: 0px 0px 0px 10px;
     }
